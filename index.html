@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- mobile header -->
+    <div class="mobile-header header">
+      <div class="mobile-logo">
+        <h2>Portfolio<span>.</span></h2>
+      </div>
+      <div class="hamburger">&#9776;</div>
+      <nav class="mobile-navbar">
+        <ul class="d-flex">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- desktop header -->
+    <header class="header">
+      <div class="logo">
+        <h2>Portfolio<span>.</span></h2>
+      </div>
+      <nav class="desktop-nav mx-1">
+        <ul class="d-flex">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- hero/home page -->
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 hero-left">
+            <div class="hero-content">
+              <h1 class="title">Hi, I'm Chesta</h1>
+              <h2 class="sub-title">Frontend Developer</h2>
+              <p class="intro-para">
+                As an aspiring Frontend Developer, I’m dedicated to crafting
+                intuitive digital interfaces that combine functionality and
+                aesthetics. I thrive in collaborative environments where I can
+                learn, contribute, and push boundaries to deliver innovative
+                solutions that enhance user experience and business impact. With
+                a strong foundation in HTML, CSS, JavaScript, and Bootstrap, I
+                aim to contribute to impactful projects while continuously
+                expanding my technical and professional skill set.
+              </p>
+              <a
+                href="assets/Chesta_Gaur_Resume.pdf"
+                target="_blank"
+                class="btn"
+                >Resume</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 text-center hero-right">
+            <img
+              class="hero-img"
+              src="assets/hero-img.jpeg"
+              alt="Portrait of Chesta Gaur, Frontend Developer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row align-items-center g-3">
+          <div class="col-12 col-sm-6 col-md-6 about-box">
+            <p class="about-para">
+              I’m a Computer Science Engineering student with hands-on
+              experience in frontend technologies. My current focus is mastering
+              React for building scalable web applications while improving my
+              Python skills to diversify my technical toolkit. I’m always
+              curious, self-driven, and committed to continuous learning and
+              innovation.
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 about-box">
+            <ul class="about-list">
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Freelance : Available
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>City : Kota, Rajasthan
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Language : Hindi,
+                English
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 about-box">
+            <ul class="about-list">
+              <li>
+                <i class="fa-solid fa-greater-than"></i>Phone : +91 9116141886
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i
+                ><a href="mailto:chestagaur004@gmail.com"
+                  >Mail : chestagaur004@gmail.com</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-greater-than"></i>
+                <a
+                  href="https://www.linkedin.com/in/chesta-gaur-696739269"
+                  target="_blank"
+                >
+                  Linkedin : linkedin.com/in/chesta123</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- stats section -->
+    <section id="stats">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-regular fa-face-smile"></i>
+              </div>
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="26"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  26+
+                </h2>
+                <strong>Projects</strong>
+                <p>Frontend & academic projects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="10"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  10+
+                </h2>
+                <strong>Technologies Learned</strong>
+                <p>From HTML to React & Python</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-solid fa-headphones"></i>
+              </div>
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="500"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  500+
+                </h2>
+                <strong>Hours of Coding</strong>
+                <p>Hands-on coding & learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 stat-box">
+            <div class="stat-item">
+              <div class="icon">
+                <i class="fa-regular fa-user"></i>
+              </div>
+
+              <div class="stat-desc">
+                <h2
+                  data-purecounter-start="0"
+                  data-purecounter-end="5"
+                  data-purecounter-duration="2"
+                  class="purecounter"
+                >
+                  5+
+                </h2>
+                <strong>Certificates</strong>
+                <p>Web Dev & ML Domains</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section -->
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>High School</h3>
+              <p>
+                Completed 10th grade with 90.50%, building a strong foundation
+                in science and mathematics.
+              </p>
+              <span class="year">2019</span>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="content">
+              <h3>Senior Secondary</h3>
+              <p>
+                Secured 95.20% in 12th class, strengthen analytical and logical
+                skills.
+              </p>
+              <span class="year">2021</span>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>Internships & Certifications</h3>
+              <p>
+                Accomplished internships at Coding Samurai and in Python–ML,
+                worked on 2–3 projects, and earned certifications in Web
+                Development.
+              </p>
+              <span class="year">2024</span>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="content">
+              <h3>B.Tech [CSE]</h3>
+              <p>
+                Completed B.tech in computer science with 8.92 CGPA and zero
+                backlogs.
+              </p>
+              <span class="year">2025</span>
+            </div>
+          </div>
+
+          <!-- <div class="timeline-item left">
+            <div class="content">
+              <h3>Career Goal</h3>
+              <p>
+                Focused on building expertise in React and advancing toward
+                full-stack development with continuous learning in AI and
+                backend tools.
+              </p>
+              <span class="year">2025...</span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 skill-content">
+            <div class="progress">
+              <span class="skill"><span>HTML5</span><i>100%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 100%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>CSS3</span><i>95%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 95%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>JAVASCRIPT</span><i>80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 80%"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 skill-content">
+            <div class="progress">
+              <span class="skill"><span>BOOTSTRAP</span><i>90%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 90%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>PYTHON</span><i>70%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 70%"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>GITHUB</span><i>85%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--progress-value: 85%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project1.png" alt="Portfolio Website" />
+            <div class="overlay-content">
+              <h4>Portfolio Website</h4>
+              <p>
+                Personal portfolio built with HTML, CSS, and JS to showcase
+                skills and projects.
+              </p>
+              <a
+                href="https://chesta-gaur.github.io/portfolio/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project2.png" alt="WorkField – Business Website" />
+            <div class="overlay-content">
+              <h4>WorkField – Business Website</h4>
+              <p>
+                Corporate landing page using HTML, CSS, and Bootstrap for modern
+                business presentation.
+              </p>
+              <a
+                href="https://chesta-gaur.github.io/office-template-website/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project3.png" alt="FoodMan – Restaurant Website" />
+            <div class="overlay-content">
+              <h4>FoodMan – Restaurant Website</h4>
+              <p>
+                Responsive restaurant site showcasing menu, chefs, and special
+                dishes with smooth navigation.
+              </p>
+              <a
+                href="https://chesta-gaur.github.io/Restaurant_website_template/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project4.png" alt="ToDo App" />
+            <div class="overlay-content">
+              <h4>ToDo App</h4>
+              <p>
+                JavaScript-based task manager for adding, deleting, and tracking
+                daily tasks efficiently.
+              </p>
+              <a
+                href="https://chesta-gaur.github.io/todo-app/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project5.png" alt="Weather App" />
+            <div class="overlay-content">
+              <h4>Weather App</h4>
+              <p>
+                Real-time weather app fetching live data through an API with
+                temperature and forecast.
+              </p>
+              <a
+                href="https://chesta-gaur.github.io/Weather-App/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 project-box">
+            <img src="assets/project6.png" alt="Expense Tracker" />
+            <div class="overlay-content">
+              <h4>Expense Tracker</h4>
+              <p>
+                Interactive web app tracking income and expenses dynamically
+                using JavaScript.
+              </p>
+              <a
+                href="https://chesta-gaur.github.io/expense_tracker_app/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5 contact-left">
+            <h2>Contact<span>Me!</span></h2>
+            <h5>if you have any project in your mind.</h5>
+            <p>
+              Open to full-time opportunities in frontend development where I
+              can apply my skills in React, JavaScript, and modern web
+              technologies. Let’s connect to discuss how I can add value to your
+              team.
+            </p>
+            <ul>
+              <li>+91 9116141886</li>
+              <li>
+                <a
+                  href="mailto:chestagaur004@gmail.com"
+                  style="color: var(--gray-para)"
+                >
+                  chestagaur004@gmail.com
+                </a>
+              </li>
+              <li>Available for freelance and internship roles</li>
+            </ul>
+            <div class="social-media">
+              <div class="social-media-icon d-flex2">
+                <a href="https://github.com/Chesta-gaur" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+              <div class="social-media-icon d-flex2">
+                <a
+                  href="https://www.linkedin.com/in/chesta-gaur-696739269"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </div>
+              <div class="social-media-icon d-flex2">
+                <a href="mailto:chestagaur004@gmail.com"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 contact-right">
+            <form onsubmit="return false;">
+              <input
+                type="text"
+                placeholder="Your Name"
+                class="input-field"
+                autocomplete="off"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Your Email Address"
+                class="input-field"
+                autocomplete="off"
+                required
+              />
+              <input
+                type="number"
+                placeholder="Your Mobile Number"
+                class="input-field"
+                autocomplete="off"
+                required
+              />
+              <textarea placeholder="Your Message" rows="8"></textarea>
+              <a
+                href="mailto:chestagaur004@gmail.com?subject=Portfolio%20Contact%20-%20Let's%20Connect"
+                class="btn"
+                >Message Me</a
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 footer-content">
+            <p>© 2025 <b>Chesta Gaur</b>. All Rights Reserved.</p>
+            <p>
+              Frontend Developer | React Learner | Passionate about clean UI/UX
+              design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- PureCounter script -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <!-- js link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
