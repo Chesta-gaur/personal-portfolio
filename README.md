@@ -9,7 +9,7 @@ The website highlights my work in HTML, CSS, JavaScript, Bootstrap, and demonstr
 
 Live Link: https://chesta-gaur.github.io/personal-portfolio/
 
-GitHub Repo: (this repository)
+GitHub Repo: (https://github.com/Chesta-gaur/personal-portfolio.git)
 
 ---
 
